@@ -112,3 +112,18 @@ mrg { margin-right: 1ch; }
 li { margin-block-start: 1.5ch; margin-block-end: 0;}
 .li-n { list-style: decimal; }
 
+footer {
+    height: 90px;
+    background: var(--cdrk0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloco {
+    display: block;
+}
+
+txt {
+    padding-top: 3ch;
+}
