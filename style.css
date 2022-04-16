@@ -10,6 +10,7 @@
     --cdrk3: #1e1f29;
     --cdrkbg: #282a36;
     --cdrksel: #44475a;
+    --accent: #ff6a28;
 }
 
 *, *::before, *::after {
@@ -108,6 +109,7 @@ pb1, pb2 {
     align-items: center;
 }
 
+.accent { color: var(--accent); }
 mrg { margin-right: 1ch; }
 li { margin-block-start: 1.5ch; margin-block-end: 0;}
 .li-n { list-style: decimal; }
@@ -131,4 +133,8 @@ txt {
 a {
     text-decoration: none;
     color: #ff6a28;
+}
+
+svg {
+    fill: #ff6a28;
 }
