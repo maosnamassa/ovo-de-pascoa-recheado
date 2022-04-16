@@ -116,14 +116,17 @@ li { margin-block-start: 1.5ch; margin-block-end: 0;}
 
 footer {
     height: 90px;
+    min-height: 100px;
     background: var(--cdrk0);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2ch 2ch 0 2ch;
 }
 
 .bloco {
     display: block;
+    padding: 0 0 1ch 0;
 }
 
 txt {
