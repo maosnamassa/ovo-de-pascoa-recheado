@@ -127,3 +127,8 @@ footer {
 txt {
     padding-top: 3ch;
 }
+
+a {
+    text-decoration: none;
+    color: #ff6a28;
+}
